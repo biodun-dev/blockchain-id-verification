@@ -9,7 +9,7 @@
     "dev": "nodemon --watch src --exec ts-node src/index.ts" 
   },
   "keywords": [],
-  "author": "",
+  "author": "Biodun-dev",
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
