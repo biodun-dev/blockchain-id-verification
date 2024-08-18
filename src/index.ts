@@ -11,9 +11,9 @@ import swaggerSpecs from '../swagger/swaggerConfig';
 const app = express();
 
 app.use(express.json());
-app.use('/api/users', userRoutes);
-app.use('/api/verifications', verificationRoutes);
-app.use('/api/blockchain', blockchainRoutes);
+app.use('/users', userRoutes);
+app.use('/verifications', verificationRoutes);
+app.use('/blockchain', blockchainRoutes);
 
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
