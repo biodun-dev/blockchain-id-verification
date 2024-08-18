@@ -5,6 +5,7 @@ import verificationRoutes from './routes/verificationRoutes';
 import blockchainRoutes from './routes/blockchainRoutes';
 import { errorHandler } from './middlewares/errorHandler';
 import swaggerUi from 'swagger-ui-express';
+import './types/express';
 import swaggerSpecs from '../swagger/swaggerConfig';
 
 const app = express();
