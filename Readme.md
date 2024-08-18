@@ -1,3 +1,4 @@
+
 # Blockchain Identity Verification
 
 ## Overview
@@ -6,6 +7,7 @@ This project is a blockchain-based identity verification service. It uses Node.j
 
 ## Project Structure
 
+```plaintext
 /project-root
 │
 ├── /src
@@ -91,4 +93,3 @@ vbnet
 
 
 
-```
